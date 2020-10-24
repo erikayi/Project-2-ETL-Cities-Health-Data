@@ -1,6 +1,8 @@
+CREATE MATERIALIZED VIEW cities AS
 SELECT *
 FROM health_cities;
 
+CREATE MATERIALIZED VIEW hospital_bed AS
 SELECT *
 FROM hospital_data;
 
