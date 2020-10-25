@@ -1,4 +1,4 @@
-,indicator_category,indicator,gender,race_ethnicity,rate,state,year
+,category,cause_of_death,gender,race_ethnicity,death_rate,state,year
 639,Injury and Violence,"Firearm Related Mortality Rate (Age-Adjusted; Per 100,000 people)",Female,All,1.4, MA,2010
 10136,"Nutrition, Physical Activity, & Obesity","Diabetes Mortality Rate (Age-Adjusted; Per 100,000 people)",Both,Asian/PI,18.6, CA,2010
 11511,Tobacco,Percent of High School Students Who Currently Smoke,Male,All,14.0, WA,2010
