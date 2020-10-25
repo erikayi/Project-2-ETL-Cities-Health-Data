@@ -1,2 +1,2 @@
-username="INPUT YOUR USERNAME"
-password="INPUT YOUR PASSWORD"
+username="postgres"
+password="1992588990"
