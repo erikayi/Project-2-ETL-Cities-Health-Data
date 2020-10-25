@@ -1,11 +1,5 @@
 DROP TABLE health_cities;
 DROP TABLE hospital_data;
--- DROP TABLE hospital_data_2010;
--- DROP TABLE hospital_data_2011;
--- DROP TABLE hospital_data_2012;
--- DROP TABLE hospital_data_2013;
--- DROP TABLE hospital_data_2014;
--- DROP TABLE hospital_data_2015;
 
 CREATE TABLE health_cities (
 	year INT,
@@ -25,6 +19,14 @@ CREATE TABLE hospital_data (
 	for_profit INT,
 	total INT
 )
+
+-- previous dataset I made for each hospital beds data that we don't need anymore:
+-- DROP TABLE hospital_data_2010;
+-- DROP TABLE hospital_data_2011;
+-- DROP TABLE hospital_data_2012;
+-- DROP TABLE hospital_data_2013;
+-- DROP TABLE hospital_data_2014;
+-- DROP TABLE hospital_data_2015;
 
 -- CREATE TABLE hospital_data_2010 (
 -- 	year INT,

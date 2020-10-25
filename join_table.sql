@@ -1,6 +1,4 @@
--- DROP MATERIALIZED VIEW hospital;
--- Joins tables
--- CREATE MATERIALIZED VIEW hospital AS
+-- Joining tables
 SELECT hc.indicator_category, hc.indicator, hc.gender, hc.race_ethnicity, hc.rate, ho.state,
 		hc.year, ho.state_local_gov, ho.non_profit, ho.for_profit, ho.total
 FROM health_cities hc
@@ -25,3 +23,8 @@ FROM health_cities;
 
 SELECT count(*)
 FROM hospital_data;
+
+-- DROP MATERIALIZED VIEW hospital;
+-- CREATE MATERIALIZED VIEW hospital AS
+
+-- WE DON'T HAVE TO MATERIALIZED VIEW FOR THIS ONE. IT'S NOT A BIG DATA.

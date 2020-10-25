@@ -1,18 +1,17 @@
--- DROP MATERIALIZED VIEW cities;
--- DROP MATERIALIZED VIEW hospital_bed;
-
--- CREATE MATERIALIZED VIEW cities AS
-
--- again, I commented out the create materialized view, since I don't think it is necessary to make a view for this data because it is not that large data.
-
 SELECT *
 FROM health_cities;
-
--- CREATE MATERIALIZED VIEW hospital_bed AS
 
 SELECT *
 FROM hospital_data;
 
+
+-- WE DON'T HAVE TO MATERIALIZED VIEW FOR THIS ONE. IT'S NOT A BIG DATA.
+-- DROP MATERIALIZED VIEW cities;
+-- DROP MATERIALIZED VIEW hospital_bed;
+-- CREATE MATERIALIZED VIEW cities AS
+-- CREATE MATERIALIZED VIEW hospital_bed AS
+
+-- FOR PREVIOUS DATA I MADE FOR EACH HOSPITAL DATASET, WHICH WE DON'T NEED:
 -- SELECT *
 -- FROM hospital_data_2010;
 
